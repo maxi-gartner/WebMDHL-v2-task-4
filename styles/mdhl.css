@@ -1,0 +1,333 @@
+header{
+    
+    min-width:710px;
+}
+
+.header{
+    margin-top: 2%;
+    margin-left: 2%;
+    height: 100%;
+    width: 96%;
+    position: relative;
+    padding: 0%;
+}
+
+.img{ 
+    height: 34vh;
+    width: 100%;
+    margin: 0%;
+    position: relative;
+    top: 4vh;
+    background-image: url(../assets/design1_image1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 33%;
+    background-size: cover;/*ajustar imagen*/
+}
+
+div > h1{
+    position: absolute;
+    bottom: 32vh;
+    font-size: 3vw;
+    margin-left: 0;
+    margin-bottom: 2%;
+}
+    .navegation{
+        position: relative;
+        margin: 0%;
+        bottom: 0.4vh;
+        height: 3.5vh;
+        background-color: black;
+        color:white;
+        line-height: 160%;
+        font-weight: bold;
+        text-align: center;
+        font-size: 2vw;
+        font-size: 2vh;
+    }
+    
+    
+    .conteiner{
+        position: relative;
+        margin: 0%;
+        padding: 0%;
+        height: 40vh;
+    
+    }
+    .link-rules{
+        float: inline-start;
+        position: absolute;
+        bottom: 96%;
+        list-style: none; 
+        left: 52%;
+        width: 100%;
+        height:3vw;
+    }
+    .link{
+        float: inline-start;
+        position: absolute;
+        list-style: none; 
+        bottom: 76.5vh;
+        left: 52%;
+        width: 100%;
+        height:3vw;
+    }
+    
+    .link-a{
+        background-color: #5983cc;
+        border: 1px solid black;
+        margin: 0 0.4vw;
+        min-width: 7vw;
+        text-align: bottom;
+        cursor: pointer;
+        color: white;
+        font-weight: bold;
+        line-height: 3vh;
+        font-size: 2.2vw;
+    }
+    
+    a:hover {background-color: yellowgreen;}
+    
+    .info{
+    height: 16.3em;
+    width: 75vw;
+    float: right;
+    position: relative;
+    padding-bottom: 50px;
+    margin: 0%;
+    font-size: 80%;
+    font-weight: 800;
+    font-weight: bold;
+    overflow: scroll;
+    
+    }
+    .logo-rules{
+        position: absolute;
+    }
+    .espaciado{
+        height: 50px;
+        width: 100%;
+    }
+    
+    .point3{    
+        padding: 0;
+        }
+        
+        .font-bold{ 
+            font-weight: bold;
+            font-size: 22px;
+        }
+        
+        .body-list{
+            margin: 0;
+            padding: 0;
+            list-style-position:inside;
+        }
+        .head-list{
+            list-style: none;
+        }
+        .font-point3{
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .text-point4{
+            list-style: none;
+        }
+        .text-point5{
+            list-style-type: circle;
+            list-style-position:inside;
+        }
+        .title-list{
+            list-style: none;
+            text-align: center;
+        }
+        .margin.sportsmanships{
+            text-indent: pt;
+        }
+        .dates{
+            margin-top: 60vh;
+        }
+        td{
+            margin: 5;
+        }
+        .conteiner-tabla{
+            position: absolute;
+            width: 86%;
+        }
+
+        table{
+            margin-top: 40px;
+            width: 86%;
+            text-align: center;
+        }
+        .td{
+            padding-bottom: 3%;
+            font-size: 20px;
+        }
+        .padding-none{
+            padding-left: 60px;
+            font-size: 20px;
+        }
+        .scope{
+            padding-left: 60px;
+            padding-bottom: 3%;
+            font-weight: bold;
+            font-size: 23px;
+        }
+        .tdf{
+            padding-left: 140px;
+            padding-bottom: 3%;
+            font-size: 20px;
+        }
+        .padding-nonef{
+            padding-left: 140px;
+            font-size: 20px;
+        }
+        .title-game{
+            font-size: 34px;
+            list-style: none;
+            text-align: center;
+            font-weight: bold;
+        }
+        .subtitle-game{
+            font-style: oblique;
+            font-size: 22px;
+            margin-left: 22%;
+        }
+        .subtitle2{
+            font-style: oblique;
+            font-size: 17px;
+            font-family: sans-serif;
+            margin-left: 17%;
+            list-style: none;
+        }
+        .font-bold-phone{
+            font-weight: bold;
+            font-size: 18px;
+
+        }
+        .font-bold-email{
+            font-weight: bold;
+            font-size: 18px;
+            text-align: right;
+        }
+        .footer{
+            position: relative;
+            height: 200px;
+            margin-bottom: 30px;
+            margin-left: 26%;
+        }
+        .footer2{
+            margin-bottom: 50px;
+            
+        }
+        .footer3{
+            margin-bottom: 0;
+            
+        }
+        .phone{
+            position: absolute;
+            left: 12%;
+        }
+        .email{
+            position: absolute;
+            right: 0%;
+        }
+        .point3{    
+            padding: 0;
+            list-style: inside;
+            list-style-type: lower-latin;
+            }
+            .margin-p3{
+                margin-top: 23px;
+            }
+
+            
+        .titleForm{
+            margin-top: 10%;
+            font-size: 34px;
+            list-style: none;
+            text-align: center;
+            font-weight: bold;
+        }
+        .personalDate{
+            width: 100%;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 35px 35px 35px 35px ;
+            font-size: 21px;
+        }
+        .conteinerFirstName input{
+            width: 42%;
+        }
+        .ConteinerLastName input{
+            width: 65%;
+        }
+        .ConteinerStreetAddress input{
+            width: 78%;
+        }
+        .conteinerCity input{
+            width:82%;
+        }
+        .conteinerZipCode input{
+            width:71%;
+        }
+        .conteinerBirthDate input{
+            width:31%;
+        }
+        .ConteinerStreetAddress{
+            grid-column: 1/3;
+        }
+        .conteinerBirthDate{
+            grid-column: 1/2;
+        }
+        .conteinerGrade{
+            grid-column: 1/3;
+        }
+        .secondTitleForm{
+            font-size: 25px;
+        }
+        .secondTitleFormText{
+            font-size: 25px;
+            margin-bottom: 0;
+        }
+        .thirdTitleForm{
+            font-size: 22px;
+        }
+
+
+        .closest{
+            display: grid;
+            grid-template-columns: 50% 50%;
+        }
+        .position{
+            display: grid;
+            grid-template-columns: 50% 50%;
+        }
+        .uniform{
+            display: grid;
+            grid-template-columns: 50% 50%;
+        }
+        .ConteinerSign input{
+            width:50%;
+            border: none;
+            background: none;
+            border-bottom: 1px solid black;
+            outline: none;
+            
+        }
+        .ConteinerDate input{
+            border: none;
+            background: none;
+            border-bottom: 1px solid black;
+            outline: none;
+        }
+        form > p{
+            font-size: 15px;
+        }
+        .personalDate input{
+            border: none;
+            background: none;
+            border-bottom: 1px solid black;
+            outline: none;
+        }
