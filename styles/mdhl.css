@@ -154,7 +154,6 @@ div > h1{
             position: absolute;
             width: 86%;
         }
-
         table{
             margin-top: 40px;
             width: 86%;
@@ -163,6 +162,7 @@ div > h1{
         .td{
             padding-bottom: 3%;
             font-size: 20px;
+            border-bottom: solid 2px black;
         }
         .padding-none{
             padding-left: 60px;

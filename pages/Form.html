@@ -39,7 +39,7 @@
                     </div>
                     <p class="titleForm">Registration Form</p>
                   </div>
-                  <form action="">
+                  <form action="./show_data.html" method="get" class="form-registration">
                     <div class="personalDate">
                       <div class="conteinerFirstName">
                         <!-- a los imputs, les coloco el atriburo del tipo mediante lka palabre "type". tambien puedo agregarles id-->
@@ -49,97 +49,96 @@
                       </div>
                       <div class="ConteinerLastName">
                         <label for="lastName"> Last Name:</label>  
-                        <input type="text" id="lastName" lastName="lastName" required placeholder="Insert your Last Name">
+                        <input type="text" id="lastName" name="lastName" required placeholder="Insert your Last Name">
                       </div>
                       <div class="ConteinerStreetAddress">
                         <label for="streetAddress">Street Address:</label>
-                        <input type="text" id="streetAddress" lastName="lastName" required placeholder="Insert Street Address">
+                        <input type="text" id="streetAddress" name="lastName" required placeholder="Insert Street Address">
                       </div>
                       <div class="conteinerCity">
                         <label for="text">City:</label>
-                        <input type="text" id="city" city="city" required placeholder="Insert City">
+                        <input type="text" id="city" name="city" required placeholder="Insert City">
                       </div>
                       <div class="conteinerZipCode">
                         <label for="zipCode"> Zip Code</label>
-                        <input type="text" id="zipCode" zipCode="zipCode" required placeholder="Insert Zip Code">
+                        <input type="text" id="zipCode" name="zipCode" required placeholder="Insert Zip Code">
                       </div>
                       <div class="conteinerBirthDate">
                         <label for="birthDate">Birth Date(dd/mm/yyyy)</label>
-                        <input type="text" id="birthDate" zipCode="birthDate" required placeholder="Insert your Birth Date">
+                        <input type="text" id="birthDate" name="birthDate" required placeholder="Insert your Birth Date">
                       </div>
                       <div class="conteinerFemele">
                         <b>Gender: </b>
                         <label for="femele">Femele</label>
-                        <input type="checkbox">
+                        <input type="checkbox" id="femele" name="femele">
                         <label for="male">Male</label>
-                        <input type="checkbox">
-                        <label for="male">N(X)</label>
-                        <input type="checkbox">
+                        <input type="checkbox" id="male" name="male">
+                        <label for="x">N(X)</label>
+                        <input type="checkbox" id="x" name="x">
                       </div>
                       <div class="conteinerGrade">
                         <label for="grade">Grade</label>
-                        <input type="checkbox">
+                        <input type="checkbox" id="grade" name="grade">
                         <b>Pre-School  :</b>
-                        <input type="checkbox">
+                        <input type="checkbox" id="1st" name="1st">
                         <label for="1st"><sup>1st</sup></label>
-                        <input type="checkbox">
+                        <input type="checkbox" id="2st" name="2st">
                         <label for="2st"><sup>2st</sup></label>
-                        <input type="checkbox">
+                        <input type="checkbox" id="3st" name="3st">
                         <label for="3st"><sup>3st</sup></label>
-                        <input type="checkbox">
+                        <input type="checkbox" id="4st" name="4st">
                         <label for="4st"><sup>4st</sup></label>
-                        <input type="checkbox">
+                        <input type="checkbox" id="5st" name="5st">
                         <label for="5st"><sup>5st</sup></label>
                         
                       </div>
                     </div>
                     
-
                     <h3 class="secondTitleForm"> Which elementary school do you live near</h3>
                     <h4 class="thirdTitleForm">Closest School:</h4>
                     <div class="closest">
                       <div class="conteinerClosest">
-                        <input type="checkbox">
-                        <label for="AJ Katzenmeier">AJ Katzenmeier</label>
+                        <input type="checkbox" id="AJ_Katzenmeier" name="AJ_Katzenmeier">
+                        <label for="AJ_Katzenmeier">AJ Katzenmeier</label>
                       </div>
                       <div class="conteinerClosest">
-                        <input type="checkbox">
+                        <input type="checkbox" id="Greenbay" name="Greenbay">
                         <label for="Greenbay">Greenbay</label>
                       </div>
                       <div class="conteinerClosest">
-                        <input type="checkbox">
-                        <label for="Howard a Yeager">Howard a Yeager</label>
+                        <input type="checkbox" id="Howard_a_Yeager" name="Howard_a_Yeager">
+                        <label for="Howard_a_Yeager">Howard a Yeager</label>
                       </div>
                       <div class="conteinerClosest">
-                        <input type="checkbox">
-                        <label for="Marjorie P Hart">Marjorie P Hart</label>
+                        <input type="checkbox" id="Marjorie_P_Hart" name="Marjorie_P_Hart">
+                        <label for="Marjorie_P_Hart">Marjorie P Hart</label>
                       </div>
                       <div class="conteinerClosest">
-                        <input type="checkbox">
-                        <label for="Nort Elementary">Nort Elementary</label>
+                        <input type="checkbox" id="Nort_Elementary" name="Nort_Elementary">
+                        <label for="Nort_Elementary">Nort Elementary</label>
                       </div>
                       <div class="conteinerClosest">
-                        <input type="checkbox">
-                        <label for="South Elementary">South Elementary</label>
+                        <input type="checkbox" id="South_Elementary" name="South_Elementary">
+                        <label for="South_Elementary">South Elementary</label>
                       </div>
                     </div>
                     
                     <h3 class="secondTitleForm"> What position(s) do you normally play? (check all that apply)</h3>
                     <div class="position">
                       <div class="conteinerClosest">
-                        <input type="checkbox">
+                        <input type="checkbox" id="Forward" name="Forward">
                         <label for="Forward">Forward</label>
                       </div>
                       <div class="conteinerClosest">
-                        <input type="checkbox">
+                        <input type="checkbox" id="Defense" name="Defense">
                         <label for="Defense">Defense</label>
                       </div>
                       <div class="conteinerClosest">
-                        <input type="checkbox">
+                        <input type="checkbox" id="Midfield" name="Midfield">
                         <label for="Midfield">Midfield</label>
                       </div>
                       <div class="conteinerClosest">
-                        <input type="checkbox">
+                        <input type="checkbox" id="Goalkeeper" name="Goalkeeper">
                         <label for="Goalkeeper">Goalkeeper</label>
                       </div>
                     </div>
@@ -147,32 +146,32 @@
                     <h3 class="secondTitleForm"> Uniform Size: </h3>
                     <div class="uniform">
                       <div class="conteinerClosest">
-                        <input type="checkbox">
+                        <input type="checkbox" id="Youth_Smal" name="Youth_Smal">
                         <label for="Youth_Smal">Youth Smal</label>
                       </div>
                       <div class="conteinerClosest">
-                        <input type="checkbox">
+                        <input type="checkbox" id="Youth_Medium">
                         <label for="Youth_Medium">Youth Medium</label>
                       </div>
                       <div class="conteinerClosest">
-                        <input type="checkbox">
+                        <input type="checkbox" id="Youth_Large" name="Youth_Large">
                         <label for="Youth_Large">Youth Large</label>
                       </div>
                       <div class="conteinerClosest">
-                        <input type="checkbox">
+                        <input type="checkbox" id="Small" name="Small">
                         <label for="Small">Small</label>
                       </div>
                       <div class="conteinerClosest">
-                        <input type="checkbox">
+                        <input type="checkbox" id="Medium" name="Medium">
                         <label for="Medium">Medium</label>
                       </div>
                       <div class="conteinerClosest">
-                        <input type="checkbox">
+                        <input type="checkbox" id="Large" name="Large">
                         <label for="Large">Large</label>
                       </div>
                       <div class="conteinerClosest">
-                        <input type="checkbox">
-                        <label for="Extra-Large">Extra-Large</label>
+                        <input type="checkbox" id="Extra_Large" name="Extra_Large">
+                        <label for="Extra_Large">Extra-Large</label>
                       </div>
                     </div>
                     <h3 class="secondTitleFormText"> Permission to Play </h3>
@@ -181,12 +180,13 @@
                       By signing below, I herebyagree andauthorizethe above. In addition, by signing below, lalso acknowledge that I have read the cancellation policy and agree to its terms.</p>
                       <div class="ConteinerSign">
                         <label for="sign"> Parent/GuardianSignature:</label>  
-                        <input type="text" id="sign" sign="sign" required placeholder= "">
+                        <input type="text" id="sign" name="sign" required placeholder= "">
                       </div>
                       <div class="ConteinerDate">
                         <label for="date">Date:</label>  
-                        <input type="text" id="date" date="date" required placeholder= "">
+                        <input type="text" id="date" name="date" required placeholder= "">
                       </div>
+                      <button class="send-form">Send Form</button>
                   </form>
     </div>
 </header>
